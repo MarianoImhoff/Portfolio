@@ -1,9 +1,8 @@
 body {
   background-color: white;
   color: white;
-  /* background-image: url('/home/imhmariano/Plataforma5/Portfolio/src/assets/Lion.jpg');
-  background-size: cover; */
 }
 .container{
   display:flex;
 }
+
