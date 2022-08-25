@@ -1,6 +1,18 @@
-*{
+body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   }
-  
+  .row{
+    --bs-gutter-x: 0rem;
+  }
+
+  @font-face {
+    font-family: Coverr;
+    src: url(../src/assets/Font/Cover.ttf)
+  }
+
+  @font-face {
+    font-family: GameOfSquids;
+    src: url(../src/assets/Font/GameOfSquids.ttf);
+  }

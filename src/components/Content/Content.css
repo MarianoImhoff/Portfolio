@@ -1,0 +1,282 @@
+.containerContent {
+  width: 100%;
+  position: relative;
+  background-image: url("../../assets/Content/Espacio1.png");
+}
+
+.col-4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.col-8 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBorder {
+  --border-color: linear-gradient(-45deg, #3c7db9, #7e03aa, #dfe8e7);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+  color: var(--color);
+  width: 130px;
+  height: 130px;
+  margin-top: 1%;
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
+  font-size: 17px;
+  border: 0;
+  margin-right: 30px;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(
+    0% var(--curve-size),
+    var(--curve-size) 0,
+    100% 0,
+    100% calc(100% - var(--curve-size)),
+    calc(100% - var(--curve-size)) 100%,
+    0 100%
+  );
+  transition: color 250ms;
+}
+
+.btnBorder::after,
+.btnBorder::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 500px 500px 500px 500px;
+}
+
+.btnBorder::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+.photo {
+  border-radius: 500px 500px 500px 500px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.contentName {
+  font-family: GameOfSquids;
+  font-size: 30px;
+  margin-top: 1%;
+  position: relative;
+  color: white;
+}
+
+.profesion {
+  font-family: GameOfSquids;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 2%;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btnContent{
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 50%;
+  height: 13%;
+  background-image: linear-gradient(to top, rgba(1,1,1,.8) 0%, rgba(1,1,1,.8) 80%, rgba(1,1,1,.8) 100% );
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.127);
+  text-shadow: 0 1px #fff;
+  margin: 0 auto;
+  margin-top: -1%;
+  padding: 1.5% 0 1.5% 0;
+
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px rgb(225, 219, 219), 0 0 20px rgb(225, 219, 219),
+  4px 3px 3px rgba(0, 255, 91, 0);
+  border-color: black
+}
+
+.btn:active {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+
+}
+
+.btn:focus {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  text-decoration: none;
+}
+
+.ReactIcon{
+  margin-right: 93%;
+  font-size:20px;
+  color: rgb(190, 181, 181)
+}
+
+.textIcon{
+  position: absolute;
+  color: rgb(190, 181, 181)
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .containerContent {
+    padding-bottom: 17%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+
+  .contentName {
+    font-size: 40px;
+  
+  }
+
+  .profesion {
+    font-size: 25px;
+  }
+
+  .btnBorder {
+    align-items: center;
+    margin-top: 1%;
+  }
+
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .containerContent {
+    padding-bottom: 10%;
+  }
+  .col-4 {
+    width: 100%;
+  
+  }
+  .col-8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+  }
+  
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .containerContent {
+    padding-bottom: 10%;
+    
+  }
+  .col-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+  }
+  .col-8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contentName {
+    margin-top: 2%;
+  }
+
+  .profesion {
+    padding-top: 1%;
+  }
+
+  .btnContent {
+    margin-top: 1%;
+  }
+  .btn{
+    width: 80%
+  }
+  .btnContent{
+    width: 95%;
+  }
+  .ReactIcon{
+    margin-right: 90%;
+  
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerContent {
+    padding-bottom: 10%;
+    
+  }
+  .col-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+  }
+  .col-8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contentName {
+    font-size: 30px;
+    margin-top: 5%;
+  }
+
+  .profesion {
+    font-size: 20px;
+    padding-top: 1%;
+  }
+
+  .btnContent {
+    margin-top: 5%;
+  }
+
+  .btn{
+    width: 90%;
+    
+  }
+  .ReactIcon{
+    margin-right: 90%;
+  
+  }
+
+}

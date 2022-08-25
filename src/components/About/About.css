@@ -1,0 +1,88 @@
+.h1About {
+  font-family: GameOfSquids;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 500%;
+  color: black;
+}
+
+.h2About {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0% 8% 0% 8%;
+  font-size: 140%;
+  margin-left: -30%;
+}
+
+.col-6 {
+  display: flex;
+  justify-content: center;
+}
+.divH3About {
+  display: flex;
+  align-items: center;
+  margin-left: -15%;
+}
+
+.h3About {
+  font-family: Coverr;
+  font-size: 1700%;
+  position: absolute;
+  color: rgb(69, 64, 69);
+}
+
+.divH4About {
+  display: flex;
+  align-items: center;
+}
+
+.h4About {
+  font-family: Coverr;
+  font-size: 160%;
+  position: relative;
+  justify-content: center;
+  color: black;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .h1About {
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .h1About {
+    font-size: 500%;
+    margin-top: 5%;
+  }
+
+  .h2About {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .col-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .h3About {
+    font-size: 1500%;
+    position: relative;
+    margin-bottom: -8%;
+  }
+  .h4About {
+    font-size: 142%;
+    margin-bottom: 20%;
+  }
+
+  .divH3About {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h1About {
+    font-size: 300%;
+  }
+}

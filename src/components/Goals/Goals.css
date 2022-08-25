@@ -1,0 +1,60 @@
+.containerGoals {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  color: white;
+  margin-top: 2%;
+}
+
+.ContainerH {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  color:black;
+}
+
+.h1Goals {
+  font-family: GameOfSquids;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  font-size: 500%;
+  color:black;
+}
+
+.h2Goals {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 300%;
+  margin-top: 5%;
+  margin-bottom:1%; 
+}
+
+.h4Goals {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 150%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .h2Goals {
+    font-size: 230%;
+  }
+
+  .h4Goals {
+    font-size: 130%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .h1Goals {
+    font-size: 300%;
+    margin-top: 5%;
+  }
+  .h2Goals {
+    margin-top: 4%;
+    font-size: 120%;
+  }
+
+  .h4Goals {
+    font-size: 70%;
+  }
+}

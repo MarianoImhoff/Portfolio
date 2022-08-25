@@ -1,16 +1,26 @@
 import './App.css';
-import { Router, Routes } from 'react-router'
-import Sidebar from './components/Sidebar/Sidebar'
+import { Route, Routes } from 'react-router-dom'
 import Content from './components/Content/Content'
-import Rain from './commons/Rain'
+import About from './components/About/About'
+import Goals from './components/Goals/Goals'
+import Projects from './components/Projects/Projects'
+import Navbar from './components/Navbar/Navbar'
+import Skills from './components/Skills/Skills'
+
+
 
 
 function App() {
   return (
-    <div className='container'>
-    <Sidebar/>
-    <Content/> 
-    {/* <Rain/>  */}
+    <div>
+    <Navbar/>
+    <Routes>
+    <Route path={'/'} element={<Content/>}/>
+    <Route path={'/About'} element={<About/>}/>
+    <Route path={'/Skills'} element={<Skills/>}/>
+    <Route path={'/Projects'} element={<Projects/>}/>
+    <Route path={'/Goals'} element={<Goals/>}/>
+    </Routes> 
     </div>
   );
 }
