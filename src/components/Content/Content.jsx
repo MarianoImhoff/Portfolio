@@ -32,7 +32,7 @@ const Content = () => {
             </a>
             <br />
             <a download={"CV_Mariano_Imhoff.pdf"} href={CV}>
-              <button clasName="btn btnCv">
+              <button className="btn btnCv">
                 <ImProfile className="ReactIcon"/>
                 <span className="textIcon">Curriculum Vitae</span>
               </button>
