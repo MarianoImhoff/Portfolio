@@ -1,5 +1,6 @@
 .containerContent {
   width: 100%;
+  height:100%;
   position: relative;
   background-image: url("../../assets/Content/Espacio1.png");
 }

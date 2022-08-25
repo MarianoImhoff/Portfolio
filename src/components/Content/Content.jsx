@@ -25,7 +25,7 @@ const Content = () => {
             </a>
             <br />
             <a href="https://linkedin.com/in/marianoimhoff" target="_blank">
-              <button class="btn">
+              <button className="btn">
                 <FaLinkedin className="ReactIcon"/>
                 <span className="textIcon">LinkeIn</span>
               </button>
