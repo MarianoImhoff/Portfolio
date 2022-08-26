@@ -1,8 +1,7 @@
 .containerContent {
-  width: 100%;
+  width: auto;
   background-image: url("../../assets/Content/Espacio1.png");
   margin-bottom: -5%;
-  height:100vh
 }
 
 .col-4 {
@@ -10,6 +9,7 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+  height:100%
 }
 .col-8 {
   width: 100%;
@@ -18,6 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height:100%
 }
 
 .btnBorder {
