@@ -2,6 +2,7 @@
   width: 100%;
   background-image: url("../../assets/Content/Espacio1.png");
   margin-bottom: -5%;
+  height:100vh
 }
 
 .col-4 {
@@ -246,7 +247,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 20%;
 
   }
   .col-8 {
@@ -254,16 +255,18 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
   }
 
   .contentName {
     font-size: 30px;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .profesion {
     font-size: 20px;
-    padding-top: 1%;
+    padding-top: 3%;
+    margin-bottom: 15%;
   }
 
   .btnContent {
