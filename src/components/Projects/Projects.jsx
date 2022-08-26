@@ -3,6 +3,7 @@ import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
 import TMDB from "../../assets/Projects/TMDB.jpeg";
 import ECommerce from "../../assets/Projects/ECommerce.jpg";
+import BotDiscord from "../../assets/Projects/BotDiscord.png";
 import GlobalNews from "../../assets/Projects/GlobalNews.png";
 
 const Proyects = () => {
@@ -21,7 +22,7 @@ const Proyects = () => {
           <p className="pProjects">
             Proyecto individual, es una web app para conocer los últimos
             estrenos de Cine y Series.
-            <br/>
+            <br />
             Consume información de una API externa, por medio de su buscador se
             puede encontrar la película deseada, permite agregarlas a favoritos,
             ver las películas que tus amigos tienen en favoritos, inicio de
@@ -33,7 +34,10 @@ const Proyects = () => {
             </strong>
           </p>
           <a href="https://github.com/MarianoImhoff/TMDB" target="_blank">
-          <button className="btnProjects"><FaGithub className="ReactIconProject"/><span className="textIconProyect">GitHub</span></button>
+            <button className="btnProjects">
+              <FaGithub className="ReactIconProject" />
+              <span className="textIconProyect">GitHub</span>
+            </button>
           </a>
         </div>
       </div>
@@ -57,8 +61,14 @@ const Proyects = () => {
               Back-End.
             </strong>
           </p>
-          <a href="https://github.com/MarianoImhoff/AirCommerce" target="_blank">
-          <button className="btnProjects"><FaGithub className="ReactIconProject"/><span className="textIconProyect">GitHub</span></button>
+          <a
+            href="https://github.com/MarianoImhoff/AirCommerce"
+            target="_blank"
+          >
+            <button className="btnProjects">
+              <FaGithub className="ReactIconProject" />
+              <span className="textIconProyect">GitHub</span>
+            </button>
           </a>
         </div>
       </div>
@@ -85,10 +95,41 @@ const Proyects = () => {
               sesiones en Back-End.
             </strong>
           </p>
-          
           <a href="https://github.com/MarianoImhoff/GlobalNews" target="_blank">
-        <button className="btnProjects"><FaGithub className="ReactIconProject"/><span className="textIconProyect">GitHub</span></button>
-        </a>
+            <button className="btnProjects">
+              <FaGithub className="ReactIconProject" />
+              <span className="textIconProyect">GitHub</span>
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="row rowProjects">
+        <div className="col colImagen">
+          <img className="imgProjects" alt="GlobalNews" src={BotDiscord} />
+        </div>
+        <div className="col colDescription">
+          <h4 className="h4Projects">Bot Discord</h4>
+          <p className="pProjects">
+            Proyecto individual, pensado y creado para una Tech Talk para Coding
+            Bootcamp.
+            <br />
+            El objetivo principal fue crear un bot, el cual a pedido de usuario,
+            por medio de un comando especial, cuente un chiste de manera random
+            en el canal del Cooding Bootcamp de la plataforma Discord , con el
+            fin de ayudar a distender en momentos donde la frustracion o nervios
+            se hacian presentes.
+            <br />
+            <strong>
+              Construido con lenguaje JavaScript, con la libreria de Discord.
+            </strong>
+          </p>
+          <a href="https://github.com/MarianoImhoff/BotDiscord" target="_blank">
+            <button className="btnProjects">
+              <FaGithub className="ReactIconProject" />
+              <span className="textIconProyect">GitHub</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
