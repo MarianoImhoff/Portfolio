@@ -10,6 +10,7 @@ margin-top: 5%;
     flex-direction: row;
     justify-content: space-between;
     font-size: 12px;
+    color:rgb(113, 108, 108)
 }
 
 @media screen and (max-width: 800px) {
