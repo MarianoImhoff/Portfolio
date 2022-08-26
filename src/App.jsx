@@ -1,18 +1,16 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
-import Content from './components/Content/Content'
 import About from './components/About/About'
 import Goals from './components/Goals/Goals'
-import Projects from './components/Projects/Projects'
-import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import Skills from './components/Skills/Skills'
-
-
-
+import Navbar from './components/Navbar/Navbar'
+import Content from './components/Content/Content'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
-    <div>
+    <>
     <Navbar/>
     <Routes>
     <Route path={'/'} element={<Content/>}/>
@@ -21,7 +19,8 @@ function App() {
     <Route path={'/Projects'} element={<Projects/>}/>
     <Route path={'/Goals'} element={<Goals/>}/>
     </Routes> 
-    </div>
+    <Footer/>
+    </>
   );
 }
 
