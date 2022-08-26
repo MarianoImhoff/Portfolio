@@ -6,7 +6,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-<nav className="navbar navbar-expand-lg bg-black  fixed-top sticky-top">
+<nav className="navbar navbar-expand-lg bg-black fixed-top sticky-top">
   <div className="container-fluid">
   <Link to='/'>
     <a className="navbar-brand name" href="#">Mariano Imhoff</a>
