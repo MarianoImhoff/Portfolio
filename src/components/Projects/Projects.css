@@ -8,14 +8,14 @@
   font-family: GameOfSquids;
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 5%;
   font-size: 500%;
   color: black;
 }
 
 .rowProjects{
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
   align-items: center
 }
