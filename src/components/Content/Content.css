@@ -29,7 +29,7 @@
   color: var(--color);
   width: 130px;
   height: 130px;
-  margin-top: 1%;
+  margin-top: 3%;
   position: relative;
   isolation: isolate;
   display: inline-grid;
