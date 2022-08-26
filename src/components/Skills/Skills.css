@@ -1,7 +1,5 @@
-.containerSkills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.containeSkills {
+  height:100vh
 }
 
 .h1Skills {
@@ -18,6 +16,9 @@
 }
 
 .containerSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 1% 2% 1% 2%;
 }
 
@@ -37,7 +38,7 @@
     margin-bottom: 15%;
   }
   .skills {
-    width: 50%;
+    width: 60%;
   }
   .h3Skills {
     font-size: 15px;

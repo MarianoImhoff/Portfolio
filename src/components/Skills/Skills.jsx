@@ -14,7 +14,7 @@ import sequelize from "../../assets/Technologies/Sequelize.png";
 
 const Skills = () => {
   return (
-    <div className="containerSkills">
+    <div className="containeSkills">
       <h1 className="h1Skills" id="Skills">Skills</h1>
       <div className="row">
         <div className="col-12">
