@@ -2,6 +2,7 @@
   width: auto;
   background-image: url("../../assets/Content/Espacio1.png");
   margin-bottom: -5%;
+  min-height: 100vh;
 }
 
 .col-4 {
